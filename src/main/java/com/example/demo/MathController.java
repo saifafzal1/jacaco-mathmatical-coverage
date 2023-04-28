@@ -19,9 +19,6 @@ public class MathController {
     public int multiplication(@RequestParam int a, @RequestParam int b) {
         return a * b;
     }
-        @GetMapping("/division")
-    public int division(@RequestParam int a, @RequestParam int b) {
-        return a / b;
-    }
+ 
 }
 
