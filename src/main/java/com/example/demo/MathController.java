@@ -16,11 +16,11 @@ public class MathController {
         return a - b;
     }
        @GetMapping("/multiplication")
-    public int subtract(@RequestParam int a, @RequestParam int b) {
+    public int multiplication(@RequestParam int a, @RequestParam int b) {
         return a * b;
     }
         @GetMapping("/division")
-    public int subtract(@RequestParam int a, @RequestParam int b) {
+    public int division(@RequestParam int a, @RequestParam int b) {
         return a / b;
     }
 }
