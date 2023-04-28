@@ -19,5 +19,9 @@ public class MathController {
     public int subtract(@RequestParam int a, @RequestParam int b) {
         return a * b;
     }
+        @GetMapping("/division")
+    public int subtract(@RequestParam int a, @RequestParam int b) {
+        return a / b;
+    }
 }
 
